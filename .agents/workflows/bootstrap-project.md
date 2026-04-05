@@ -7,7 +7,8 @@ required_rules:
   - "00-delivery-principles.md"
   - "nextjs-project-workspace-rules.md"
 trigger: "Manual — run when starting a new repository or major application epic."
-***
+temperature: 0.1
+---
 
 # Workflow: Greenfield Bootstrapper
 
