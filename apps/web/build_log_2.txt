@@ -1,0 +1,29 @@
+   Γû▓ Next.js 15.5.14
+
+   Creating an optimized production build ...
+ Γ£ô Compiled successfully in 5.3s
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/5) ...
+   Generating static pages (1/5) 
+   Generating static pages (2/5) 
+   Generating static pages (3/5) 
+ Γ£ô Generating static pages (5/5)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                                 Size  First Load JS
+Γöî ╞Æ /                                      134 B         102 kB
+Γö£ Γùï /_not-found                            134 B         102 kB
+Γöö ╞Æ /api/health                            134 B         102 kB
++ First Load JS shared by all             102 kB
+  Γö£ chunks/18-90b700ea37b686a2.js          46 kB
+  Γö£ chunks/87c73c54-24122e7b92478d00.js  54.2 kB
+  Γöö other shared chunks (total)          1.96 kB
+
+
+╞Æ Middleware                             34.1 kB
+
+Γùï  (Static)   prerendered as static content
+╞Æ  (Dynamic)  server-rendered on demand
+

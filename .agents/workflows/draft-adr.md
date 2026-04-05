@@ -7,6 +7,7 @@ required_rules:
   - "00-delivery-principles.md"
   - "nextjs-project-workspace-rules.md"
   - "docs/project-context.md"
+temperature: 0.4
 trigger: "Manual — run when starting a new major feature, epic, database schema change, or cross-cutting concern."
 ---
 

@@ -1,0 +1,25 @@
+   Γû▓ Next.js 15.5.14
+
+   Creating an optimized production build ...
+ Γ£ô Compiled successfully in 2.4s
+   Linting and checking validity of types ...
+
+./src/app/error.tsx
+4:3  Warning: 'error' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/app/page.tsx
+13:12  Warning: 'err' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/middleware.ts
+2:15  Warning: 'NextRequest' is defined but never used.  @typescript-eslint/no-unused-vars
+
+info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/app/api-reference/config/eslint#disabling-rules
+   Collecting page data ...
+   Generating static pages (0/5) ...
+TypeError: Cannot read properties of null (reading 'useContext')
+    at p (C:\Users\huzai\dev\antigravity-projects\antigravity-proj1\apps\web\.next\server\pages\_error.js:8:15027)
+Error occurred prerendering page "/404". Read more: https://nextjs.org/docs/messages/prerender-error
+TypeError: Cannot read properties of null (reading 'useContext')
+    at p (C:\Users\huzai\dev\antigravity-projects\antigravity-proj1\apps\web\.next\server\pages\_error.js:8:15027)
+Export encountered an error on /_error: /404, exiting the build.
+ Γ¿» Next.js build worker exited with code: 1 and signal: null
