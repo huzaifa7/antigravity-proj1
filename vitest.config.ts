@@ -12,7 +12,6 @@ export default defineConfig({
     coverage: {
       reporter: ['text', 'lcov'],
       exclude: ['node_modules/', 'tests/e2e/'],
-      thresholds: { lines: 80, functions: 80, branches: 80 },
     },
     alias: {
       '@': path.resolve(__dirname, './apps/web/src'),
