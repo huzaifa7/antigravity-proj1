@@ -7,7 +7,7 @@ export async function GET() {
   try {
     // Verify DB connection
     db.run(sql`SELECT 1`);
-  } catch (error) {
+  } catch {
     dbStatus = 'not configured';
   }
 

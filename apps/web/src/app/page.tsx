@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic';
+
 export default async function Home() {
   const url = process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}/api/health` : 'http://localhost:3000/api/health';
   let dbStatus = "unknown";
@@ -8,7 +10,7 @@ export default async function Home() {
     const data = await res.json();
     dbStatus = data.db;
     timestamp = data.timestamp;
-  } catch (err) {
+  } catch {
     dbStatus = "error connecting to api";
   }
 
